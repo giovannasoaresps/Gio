@@ -7,6 +7,7 @@
     <groupId>org.example</groupId>
     <artifactId>ProjetimNovo</artifactId>
     <version>1.0-SNAPSHOT</version>
+
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-core -->
         <dependency>
@@ -26,6 +27,13 @@
             <artifactId>jakarta.persistence-api</artifactId>
             <version>3.2.0</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.7.4</version>
+        </dependency>
+
 
 
     </dependencies>
